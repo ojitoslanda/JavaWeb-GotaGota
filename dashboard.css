@@ -12,6 +12,7 @@
      --sidebar-w: 220px;            /*Ancho del menú (sidebar) izquierda */
      --sidebar-icons: 64px;         /* solo se muestra en la tablet el icono */
      --sidebar-bg:#FFFFFF;       /*Color del fondod el sidebar*/
+     --siderbar-line: rgba(0, 0, 0, 0.15);
      --muted: #999;              /* Texto-Secundario */
  }
 
@@ -22,7 +23,13 @@ body{
 }
 /* EMPEZAMOS A EDITAR EL SIDEBAR */
 .topbar{
-
+   display: flex; 
+   align-items: center;
+   justify-content: space-between; /* Separacion de esquina a esquina*/
+   padding: 0 20px;
+   height: 56px;
+   background-color: var(--sidebar-bg);
+   border-bottom: 1px solid var(--siderbar-line);
 }
 .sidebar{
 
