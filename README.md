@@ -42,3 +42,24 @@ RNF03: Seguridad - Solo usuarios autorizados podran acceder al sistema mediante 
 - MySQL Workbench
 - Figma (diseño UI/UX)
 - Draw.io (diagramas)
+
+
+## Base de datos
+ 
+El sistema cuenta con 4 tablas principales:
+ 
+| Tabla | Descripcion |
+|---|---|
+| COBRADORES | Personas encargadas de gestionar y cobrar los prestamos |
+| CLIENTES | Personas que solicitan el prestamo |
+| PRESTAMOS | Registro de cada prestamo otorgado |
+| COBROS | Registro de cada pago diario realizado |
+
+
+  
+### Diagrama Entidad-Relacion (DER)
+![Diagrama Entidad Relacion](recursos/Diagrama_Entidad_Relacion.png)
+ 
+### Modelo Relacional (MR)
+![Modelo Relacional](recursos/Modelo_Relacional.png)
+ 
