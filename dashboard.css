@@ -50,6 +50,19 @@ body{
     color: var(--text);
 }
 
+/* FUNCIONADA CON JAVASCRIPT EL OVERLAY */
+.overlay{
+    display: none;
+    position: fixed;
+    inset: 0; /* top,buttom,right,left*/
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 150;
+}
+/* Esto funcionara a la hora de programar en JS*/
+.overlay.show{
+    display: block;
+}
+/*SIDE-BAR - VENTANA IZQUIERDA*/
 .sidebar{
 
 }
