@@ -46,6 +46,8 @@ body{
     background: none;
     border: none;
     cursor: pointer;
+    font-size: 1.2rem; /* 19.2px */
+    color: var(--text);
 }
 
 .sidebar{
