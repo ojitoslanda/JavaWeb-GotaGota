@@ -30,6 +30,11 @@ body{
    height: 56px;
    background-color: var(--sidebar-bg);
    border-bottom: 1px solid var(--siderbar-line);
+   position: fixed; /* que queda fijo en un lugar, no permite scrolear */
+   top: 0;
+   left: 0;
+   width: 100%; 
+   z-index: 200;
 }
 .sidebar{
 
