@@ -17,7 +17,7 @@
  }
 
 body{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif; /*SI No funciona POPPINS - Defente SansSerif*/
     background-color: var(--bg); /*Color de fondo*/
     color: var(--text) /* color del texto */
 }
@@ -64,5 +64,31 @@ body{
 }
 /*SIDE-BAR - VENTANA IZQUIERDA*/
 .sidebar{
-
+ position: fixed;
+ top: 0;
+ left: -100%;
+ width: var(--sidebar-w); /* ancho 220px*/
+ height: 100vh;
+ background-color: var(--sidebar-bg);
+ border-right: 1px solid var(--siderbar-line);
+ display: flex;
+ flex-direction: column;
+ z-index: 160;
+ transition: left 0.25s ease; /*ANIMACION*/
+ padding: 24px 0;
 }
+
+/* esto se va activar con javascript */
+.sidebar.open{
+    left: 0;
+}
+
+.sidebar-logo{
+    padding: 0 20px 24px;
+    font-size: 1rem; /*16px*/
+    font-weight: 600;
+    border-bottom: 1px solid var(--siderbar-line);
+    margin-bottom: 16px;
+}
+
+
