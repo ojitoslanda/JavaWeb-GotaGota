@@ -55,10 +55,10 @@ El sistema cuenta con 4 tablas principales:
  
 | Tabla | Descripcion |
 |---|---|
-| COBRADORES | Personas encargadas de gestionar y cobrar los prestamos |
-| CLIENTES | Personas que solicitan el prestamo |
-| PRESTAMOS | Registro de cada prestamo otorgado |
-| COBROS | Registro de cada pago diario realizado |
+| COBRADOR | Personas encargadas de gestionar y cobrar los prestamos |
+| CLIENTE | Personas que solicitan el prestamo |
+| PRESTAMO | Registro de cada prestamo otorgado |
+| COBRO | Registro de cada pago diario realizado |
 
 
   
