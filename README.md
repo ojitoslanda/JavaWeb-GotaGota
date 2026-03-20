@@ -12,18 +12,23 @@ Justificacion: Se necesita un sistema digital para reemplazar el cuaderno manual
 Problema: El cobrador lleva el registro de prestamos y cobros en un cuaderno o en papel, lo que genera errores, perdida de informacion, dificultad para saber cuanto debe cada cliente y cuantas cuotas faltan.
 Solucion tecnologica: Desarrollar un sistema web con Java Spring Boot y MySQL que permita registrar clientes, prestamos y cobros diarios, mostrando en todo momento el estado de cada prestamo y el historial de pagos.
 
-## Requerimientos Funcionales (RF)
-RF01: El sistema debe permitir registrar un nuevo cliente con nombre, apellido, DNI, telefono y direccion.
-RF02: El sistema debe permitir registrar un nuevo prestamo indicando monto total, cuota, numero de cuotas y fecha de inicio.
-RF03: El sistema debe permitir registrar el cobro diario de un cliente asociado a su prestamo.
-RF04: El sistema debe mostrar el listado de todos los clientes con su estado de deuda.
-RF05: El sistema debe mostrar el historial de cobros realizados por prestamo.
-
-## Requerimientos No Funcionales (RNF)
-RNF01: Rendimiento - El sistema debe cargar cada pantalla en menos de 3 segundos.
-RNF02: Usabilidad - La interfaz debe ser intuitiva y facil de usar sin necesidad de capacitacion previa.
-RNF03: Seguridad - Solo usuarios autorizados podran acceder al sistema mediante usuario y contraseña.
-
+ 
+## Requerimientos Funcionales
+| Codigo | Descripcion |
+|---|---|
+| RF01 | El sistema debe permitir registrar un nuevo cliente con nombre, apellido, DNI, telefono y direccion |
+| RF02 | El sistema debe permitir registrar un nuevo prestamo indicando monto total, cuota, numero de cuotas y fecha de inicio |
+| RF03 | El sistema debe permitir registrar el cobro diario de un cliente asociado a su prestamo |
+| RF04 | El sistema debe mostrar el listado de todos los clientes con su estado de deuda |
+| RF05 | El sistema debe mostrar el historial de cobros realizados por prestamo |
+ 
+## Requerimientos No Funcionales
+ 
+| Codigo | Tipo | Descripcion |
+|---|---|---|
+| RNF01 | Rendimiento | El sistema debe cargar cada pantalla en menos de 3 segundos |
+| RNF02 | Usabilidad | La interfaz debe ser intuitiva y facil de usar sin necesidad de capacitacion previa |
+| RNF03 | Seguridad | Solo usuarios autorizados podran acceder al sistema mediante usuario y contraseña |
 ## Stack completo
 1. Trello             = Gestión del proyecto (Kanban)
 2. Draw.io            = Diagrama ER + Diagrama de Clases
