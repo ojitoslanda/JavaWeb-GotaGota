@@ -2,10 +2,10 @@
 Sistema web para la gestión de préstamos a crédito con facilidades de pago diario, semanal y mensual. Desarrollado como proyecto final del curso de Java Web en SENATI.
 
 ## Descripcion del negocio
-Nombre: Prestamos Gota a Gota
-Giro: Financiera informal de creditos personales
-Tamaño: Pequeña empresa, operacion individual o familiar
-Contexto: Negocio muy comun en el Peru donde un cobrador otorga prestamos pequeños a personas que no acceden a bancos, cobrando cuotas diarias, semanales o mensuales visitando al cliente en su domicilio o trabajo.
+Nombre: Prestamos Gota a Gota <br>
+Giro: Financiera informal de creditos personales <br>
+Tamaño: Pequeña empresa, operacion individual o familiar <br>
+Contexto: Negocio muy comun en el Peru donde un cobrador otorga prestamos pequeños a personas que no acceden a bancos, cobrando cuotas diarias, semanales o mensuales visitando al cliente en su domicilio o trabajo. <br>
 Justificacion: Se necesita un sistema digital para reemplazar el cuaderno manual del cobrador, evitar errores y tener un control claro de cada prestamo y cobro.
 
 ## Identificar el problema y solución
