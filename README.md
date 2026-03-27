@@ -67,4 +67,11 @@ El sistema cuenta con 4 tablas principales:
  
 ### Modelo Relacional (MR)
 ![Modelo Relacional](recursos/Modelo_Relacional.png)
- 
+
+
+
+### DIAGRAMA DE FIGMA
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/BXoCcKRR9FjiXnO5TxFhuK/Proyecto-Senati?node-id=1-7&embed-host=share" allowfullscreen></iframe>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/fxKnmW0QxHQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
